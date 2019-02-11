@@ -6,7 +6,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
+/**
+ * 系统日志
+ * @author songzhonghui
+ * @email 2835966468@qq.com
+ * @date 2018-10-07 15:45:42
+ */
 @Service
 public interface LogService {
     int save(LogDO logDO);

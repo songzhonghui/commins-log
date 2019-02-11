@@ -8,7 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
-
+/**
+ * 系统日志
+ * @author songzhonghui
+ * @email 2835966468@qq.com
+ * @date 2018-10-07 15:45:42
+ */
 @RequestMapping("/log")
 @RestController
 public class LogController {
